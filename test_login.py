@@ -4,3 +4,4 @@ def test_login():
 
     assert username == "test_user"
     assert password == "test123"
+    assert len(username) > 0
